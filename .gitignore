@@ -1,0 +1,9 @@
+*~
+a.out
+*.swap
+fb-color
+Makefile
+multi-process
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
