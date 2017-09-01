@@ -9,7 +9,7 @@ set (SRC_VERSION_PATCH 1)
 set (SRC_VERSION ${SRC_VERSION_MAJOR}.${SRC_VERSION_MINOR}.${SRC_VERSION_PATCH})
 set (PROJECT_VERSION "${SRC_VERSION}")
 
-add_definitions(-DRUN_SYSTEM_APP)
+#add_definitions(-DRUN_SYSTEM_APP)
 add_definitions(-DINITROOT_STARTUP)
 
 target_link_libraries(multi-process initroot_startup)

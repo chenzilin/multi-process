@@ -8,7 +8,13 @@
 
 int server_main(int argc, char *argv[])
 {
-    printf("int server_main(int argc, char *argv[])\n");
+    printf("========*******************===========\n");
+    printf("          int server_main             \n");
+    printf("========*******************===========\n");
+
+    while(1); // loop to prevent return
+
+    return 0;
 }
 
 #ifdef INITROOT_STARTUP
